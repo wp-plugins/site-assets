@@ -1,7 +1,7 @@
 === Site Assets ===
 Contributors: montanabanana, abda53
 Donate link: http://www.amazon.com/gp/wishlist/NLKLKBFRBRZU/
-Tags: site assets content images media contribution
+Tags: site, assets, site assets, content, images, media, contribution
 Requires at least: 3.0
 Tested up to: 4.5
 Stable tag: 1.0.2
