@@ -4,11 +4,11 @@ Donate link: http://www.amazon.com/gp/wishlist/NLKLKBFRBRZU/
 Tags: site assets content images media contribution
 Requires at least: 3.0
 Tested up to: 4.5
-Stable tag: 1.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 == Description ==
-Site Assets is a tool to easily share and view website assets on a per page basis. This is a would be most helpful on projects that require multiple contriubutors and developers.
+Site Assets is a tool to easily share website assets on a per page basis. This is most helpful on site with multiple contriubutors and developers.
 
 - Set permissions on who can add or view the assets
 - Style the front end assets box to fit the site design
