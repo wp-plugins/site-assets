@@ -1,0 +1,42 @@
+#site_assets .sa_block{
+	display: inline-block;
+    margin-bottom: 20px;
+    width: 250px;
+}
+#site_assets .sa_title{
+	font-weight:bold;
+}
+#site_assets .sa_role{
+	display: block;
+}
+#site_assets .sa_block_style{
+	display: inline-block;
+    margin-bottom: 20px;
+    width: 250px;
+    vertical-align: top;
+}
+#site_assets .site_custom_group{
+    font-weight: 600;
+    margin-top:12px;
+}
+#site_assets_custom_block > input{
+    width:80px !important
+}
+
+
+
+
+textarea#site_assets_url{
+	height: 26px;
+    line-height: 18px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+div#site_assets_note{
+	font-size:14px;
+}
+
+.sa_bold{
+	font-weight:bold;
+}

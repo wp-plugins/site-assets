@@ -1,0 +1,32 @@
+=== Site Assets ===
+Contributors: montanabanana, abda53
+Donate link: http://www.amazon.com/gp/wishlist/NLKLKBFRBRZU/
+Tags: site assets content images media contribution
+Requires at least: 3.0
+Tested up to: 4.5
+Stable tag: 1.0
+License: GPLv2 or later
+
+== Description ==
+Site Assets is a tool for admins, designers, content editors and site owners to easily share and view assets on a per page basis. This is a helpful tool to use on any project that involves more than one person or company.
+
+- Set permissions on who can add or view the assets
+- Style the front end assets box to fit the site design
+- Share relevant images, graphics and text on the pages specific to that content
+
+
+== Installation ==
+1. Upload the `site-assets` folder to the `/wp-content/plugins/` directory
+2. Activate the plugin from the Plugin menu in Wordpress
+3. Updates will be handled automatically through the built in Wordpress update functionality.
+
+== Screenshots ==
+1. **Admin View** - Admin Permissions View
+2. **Content Management** - Content Management View
+3. **Front End** - Front End View
+
+== Frequently Asked Questions ==
+1. The position and styling of the Assets box can easily customized to fit your site design, or can be overwritten for full control via CSS.
+
+== Changelog ==
+1.0 Initial Development

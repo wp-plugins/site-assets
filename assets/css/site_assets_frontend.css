@@ -1,0 +1,96 @@
+#site_assets{
+}
+
+#site_assets .site_asset a{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+
+/** BOX POSITIONING **/
+#site_assets.site_assets_top_left {
+    padding: 10px 20px;
+    position: fixed;
+    left: 10px;
+    top: 40px;
+    z-index: 9999999999999 !important;
+}
+
+#site_assets.site_assets_top_right {
+    padding: 10px 20px;
+    position: fixed;
+    right: 10px;
+    top: 40px;
+    z-index: 9999999999999 !important;
+}
+
+#site_assets.site_assets_bottom_left {
+    padding: 10px 20px;
+    position: fixed;
+    left: 10px;
+    bottom: 40px;
+    z-index: 9999999999999 !important;
+}
+
+#site_assets.site_assets_bottom_right {
+    padding: 10px 20px;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    z-index: 9999999999999 !important;
+}
+
+#site_assets #site_assets_title{
+    font-weight:bold;
+}
+/** BOX STYLES **/
+
+/** STYLE DEFAULT **/
+    #site_assets.site_assets_style_default{
+        border: 1px solid #CBDADA;
+        background-color:#2E4172;
+    }
+     #site_assets.site_assets_style_default #site_assets_title{
+        color: #DCF1A1;
+    }
+    #site_assets.site_assets_style_default a, #site_assets.site_assets_style_default a:visited, #site_assets.site_assets_style_default a:active{
+        color: #7887AB;
+    }
+    #site_assets.site_assets_style_default a:hover{
+        color: #806515;
+    }
+
+/** STYLE THEME **/
+    #site_assets.site_assets_style_theme{
+        border: 1px solid #ccc;
+        background-color:#ccc;    
+    }
+
+
+/** STYLE LIGHT **/
+    #site_assets.site_assets_style_light{
+        border: 1px solid #ccc;
+        background-color:#fff;    
+    }
+    #site_assets.site_assets_style_light a, #site_assets.site_assets_style_light a:visited, #site_assets.site_assets_style_light a:active{
+        color: #005f84;
+    }
+    #site_assets.site_assets_style_light a:hover{
+        color: #820000;
+    }
+
+
+/** STYLE DARK **/
+    #site_assets.site_assets_style_dark{
+        border: 1px solid #888;
+        background-color:#111;
+    }
+    #site_assets.site_assets_style_dark #site_assets_title{
+        color: #ccc;
+    }
+    #site_assets.site_assets_style_dark a, #site_assets.site_assets_style_dark a:visited, #site_assets.site_assets_style_dark a:active{
+        color: red;
+    }
+    #site_assets.site_assets_style_dark a:hover{
+        color: #999;
+    }
