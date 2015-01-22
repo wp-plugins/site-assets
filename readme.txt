@@ -11,8 +11,10 @@ License: GPLv2 or later
 Site Assets is a tool to easily share website assets on a per page basis. This is most helpful on site with multiple contriubutors and developers.
 
 - Set permissions on who can add or view the assets
+- Add assets on a per page/post basis. Even custom post types.
 - Style the front end assets box to fit the site design
 - Share relevant images, graphics and text on the pages specific to that content
+- Note: This plugin is for linking to assets, not uploading assets. (Link to box.net, zip archive, etc)
 
 
 == Installation ==
