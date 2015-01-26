@@ -31,5 +31,6 @@ Site Assets is a tool to easily share website assets on a per page basis. This i
 1. The position and styling of the Assets box can easily customized to fit your site design, or can be overwritten for full control via CSS.
 
 == Changelog ==
+
 1.1 Added File Sharing links
 1.0 Initial Development
