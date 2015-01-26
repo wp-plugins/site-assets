@@ -40,3 +40,10 @@ div#site_assets_note{
 .sa_bold{
 	font-weight:bold;
 }
+
+#show_links, #hide_links{
+    text-decoration: none
+}
+#show_links:hover, #hide_links:hover{
+    text-decoration: underline
+}

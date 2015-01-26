@@ -3,7 +3,7 @@
 Plugin Name: Site Assets
 Plugin URI: http://www.monatanb.com
 Description: Site Assets is a tool to easily share website assets on a per page basis. This is most helpful on site with multiple contributors and developers.
-Version: 1.0.2
+Version: 1.1
 Contributors: montanab, abda53
 Author: Montana Banana
 Author URI: http://www.monatanb.com

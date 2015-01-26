@@ -98,10 +98,39 @@
                 Box Link Hover: 
                     <input type="text" name="site_assets_style_custom_hover_color" id="site_assets_style_custom_hover_color" placeholder="#CCCCCC" value="<?=$site_assets_style_custom_hover_color;?>" />
             </div>
+        </div>
         <div class="submit">
             <input type="submit" name="Submit" value="<?php _e('Update Options', 'site_data_mb' ) ?>" />
         </div>        
     </form>
+
+
+         <div class="sa_block">
+            <div class="sa_title">
+                <a href="#" id="show_links">I need a place to upload files</a>
+                <a href="#" id="hide_links" style="display:none">Hide this list</a>
+            </div>
+            <ul id="links" style="display:none">
+                <li><a href="http://4shared.com" target="_blank">4Shared</a></li>
+                <li><a href="http://box.net" target="_blank">Box.net</a></li>
+                <li><a href="http://copy.com" target="_blank">Copy</a></li>
+                <li><a href="http://dropbox.com" target="_blank">DropBox</a></li>
+                <li><a href="http://egnyte.com" target="_blank">Egnyte</a></li>
+                <li><a href="http://filecamp.com" target="_blank">FileCamp</a></li>
+                <li><a href="http://firedrive.com" target="_blank">FireDrive</a></li>
+                <li><a href="https://drive.google.com" target="_blank">Google Drive</a></li>
+                <li><a href="http://hightail.com" target="_blank">Hightail</a></li>
+                <li><a href="http://huddle.com" target="_blank">Huddle</a></li>
+                <li><a href="http://onedrive.com" target="_blank">OneDrive</a></li>
+                <li><a href="http://owncloud.com" target="_blank">ownCloud</a></li>
+                <li><a href="http://sharefile.com" target="_blank">ShareFile</a></li>
+                <li><a href="http://soonr.com" target="_blank">Soonr</a></li>
+                <li><a href="http://spideroak.com" target="_blank">SpiderOak</a></li>
+                <li><a href="http://sugarsync.com" target="_blank">SugarSync</a></li>
+            </ul>
+        </div>
+
+
 </div>
 
 <script type="text/javascript">
@@ -115,6 +144,18 @@ if(jQuery){
                 $("#site_assets_custom_block").hide();    
             }
         });
+        $("#show_links").click(function(e){
+            e.preventDefault();
+            $("#links").slideDown();
+            $("#show_links").hide();
+            $("#hide_links").show();
+        })
+        $("#hide_links").click(function(e){
+            e.preventDefault();
+            $("#links").slideUp();
+            $("#show_links").show();
+            $("#hide_links").hide();
+        })
     });
 }
-</script>';
+</script>
